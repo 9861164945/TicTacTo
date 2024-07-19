@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blueviolet;
+    text-align: center;
+    border:2px solid black;
+    background: url('./image/IMG-20230212-WA0048.jpg');
+}
+body:hover{
+    border-radius: 1 rem;
+    background:url('./image/IMG-20230226-WA0010.jpg');
+  
+ 
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    font-size: 8vmin;
+    color: brown;
+}
+
+#resetbutton {
+    padding: 0;
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: green;
+    color: black;
+}
+#resetbutton:hover{
+    background-color: grey;
+    
+
+}
+
+#srcd{
+    text-align: center;
+}
+.head{
+    color:grey;
+    border: 2px solid yellow;
+    background-color: blue;
+}
+.head:hover{
+    border-radius: 1rem;
+    border :1px solid rgb(2, 3, 70);
+    background-color:white;
+}
+.abgame{
+    color:black;
+    border:2px solid crimson;
+    background-color: grey;
+}
+.abgame:hover{
+    border-radius: 1rem;
+    border :4px soild black;
+    background-color: aquamarine;
+
+   
+}
